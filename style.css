@@ -1,0 +1,81 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  opacity: 1;
+  background-image: radial-gradient(#959597 2px, transparent 2px),
+    radial-gradient(#959597 2px, #000000 2px);
+  background-size: 80px 80px;
+  background-position: 0 0, 40px 40px;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(148, 147, 145);
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10;
+  margin: 0;
+}
+
+nav ul a {
+  color: rgb(55, 61, 61);
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: aquamarine;
+  transition: 0.3s;
+}
+
+article {
+  background-color: #fafafa77;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #fafafa77;
+  text-decoration: none;
+}
+
+form {
+  padding: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #fafafa77;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+form button {
+  width: 30%;
+  padding: 5px;
+  background: rgb(148, 147, 145);
+  border-radius: 2px;
+  color: rgb(55, 61, 61);
+  transition: 0, 2s;
+}
+
+form button:hover {
+  background: aquamarine;
+}
+
+form button:active {
+  box-shadow: inset 3px 2px 15px -5px #000000;
+}
